@@ -76,3 +76,31 @@ body {
   color: #2b5fad;
   letter-spacing: 5px;
 }
+
+/* Light Mode */
+body.light {
+  background-color: #fff;
+  color: black;
+}
+
+body.light .container {
+  background-color: white;
+  color: black;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: #000;
+  color: white;
+}
+
+body.dark .container {
+  background-color: #222; /* dark gray so it stands out */
+  color: white;
+}
+
+body.dark .subtitle,
+body.dark .logo .byu,
+body.dark .logo .idaho {
+  color: lightblue; /* softer color for dark mode */
+}
